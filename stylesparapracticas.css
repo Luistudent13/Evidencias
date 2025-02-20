@@ -1,0 +1,146 @@
+/* Estilos Generales */
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background: url('https://i.gifer.com/WHzd.gif') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #ffcc00;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    border-bottom: 5px solid #000;
+    font-size: 24px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+/* Secciones */
+section {
+    background-color: rgba(255, 255, 255, 0.8); /* Color blanco con transparencia */
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 50px; /* Bordes muy redondeados */
+    box-shadow: 5px 5px 0px black, 10px 10px 0px rgba(0, 0, 0, 0.2);
+    border: 3px solid black;
+}
+
+h2 {
+    color: #ff5722;
+    border-bottom: 3px solid #000;
+    padding-bottom: 5px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: "★ ";
+    color: #ff5722;
+    font-size: 18px;
+}
+
+/* Imágenes */
+section img {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
+    border: 2px solid black;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px black;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+th {
+    background-color: #ffcc00;
+    color: black;
+    font-weight: bold;
+    border-bottom: 4px solid black;
+}
+
+/* Footer */
+footer {
+    background-color: #ff5722;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive;
+    border-top: 4px solid black;
+}
+
+.gif-perro {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
+    border: 2px solid black;
+}
+
+.gif-gato {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
+    border: 2px solid black;
+}
+
+.gif-ave {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
+    border: 2px solid black;
+}
+
+.gif-pez {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
+    border: 2px solid black;
+}
+
+.gif-roedor {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
+    border: 2px solid black;
+}
