@@ -1,0 +1,27 @@
+
+.titulo-bloque {
+    width: 600px; 
+    height: 200px; 
+    background-color: orange; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px auto;
+}
+
+.titulo-bloque h1 {
+    color: blue;
+    font-size: 24px;
+    margin: 0;
+}
+
+.imagen-container {
+    text-align: center; 
+}
+
+.imagen-container img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    border: 5px solid blue; 
+}

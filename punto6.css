@@ -1,0 +1,25 @@
+
+.cabecera {
+    background-color: blue;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+.tabla {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.fila td {
+    background-color: yellow;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.precio {
+    text-align: right;
+}
