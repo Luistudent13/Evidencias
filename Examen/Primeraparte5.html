@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+<form action="#" method="post">
+
+    <label for="nombre">Nombre Completo:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="correo">Correo Electrónico:</label>
+    <input type="email" id="correo" name="correo" required><br><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required><br><br>
+
+    <label for="fecha">Fecha de Nacimiento:</label>
+    <input type="date" id="fecha" name="fecha"><br><br>
+
+    <label>Estado Civil:</label><br>
+    <input type="radio" name="estado_civil" value="soltero"> Soltero(a)
+    <input type="radio" name="estado_civil" value="casado"> Casado(a)
+    <input type="radio" name="estado_civil" value="otro"> Otro <br><br>
+
+    <label>Principales Intereses:</label><br>
+    <input type="checkbox" name="intereses" value="tecnologia"> Tecnología
+    <input type="checkbox" name="intereses" value="deportes"> Deportes
+    <input type="checkbox" name="intereses" value="musica"> Música
+    <input type="checkbox" name="intereses" value="lectura"> Lectura
+    <input type="checkbox" name="intereses" value="viajes"> Viajes
+    <br><br>
+
+    <label for="residencia">Lugar de Residencia:</label>
+    <select id="residencia" name="residencia">
+        <option value="cdmx">Ciudad de México</option>
+        <option value="veracruz">Veracruz</option>
+        <option value="monterrey">Monterrey</option>
+        <option value="guadalajara">Guadalajara</option>
+    </select>
+    <br><br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Cancelar</button>
+</form>
+
+
+</body>
+</html>

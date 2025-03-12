@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.contenedor {
+    background-color: skyblue;
+    padding: 25px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contenedor img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 5px solid #333;
+    margin: 10px;
+}

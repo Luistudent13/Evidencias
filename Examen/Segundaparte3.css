@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.tarjeta-forma {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.tarjeta-contenido {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-section {
+    flex: 1;
+    text-align: center;
+}
+
+.nombre-comun {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nombre-científico {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.imagen-planta {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+.descripcion {
+    background-color: #004d00;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
